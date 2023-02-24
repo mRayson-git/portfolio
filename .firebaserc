@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "resume-michael": {
+      "hosting": {
+        "porfolio": [
+          "resume-michael"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "resume-michael"
+  }
+}
