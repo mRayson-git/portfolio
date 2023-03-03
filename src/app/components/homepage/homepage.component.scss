@@ -1,7 +1,35 @@
 .opener {
     height: 70vh;
 }
+
 .content {
     margin-top: 40vh;
     margin-bottom: 40vh;
+}
+
+.description {
+    flex: 1 1 auto;
+    margin-right: 1em;
+}
+
+.resizable {
+    height: 90vh;
+    display: flex;
+    flex: 0 1 100%;
+    resize: horizontal;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 480px) {
+    .resizable {
+        height: 90vh;
+        display: flex;
+        flex: 0 1 100%;
+        resize: horizontal;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
 }

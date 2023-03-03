@@ -8,3 +8,8 @@ $font-family-base: 'Comfortaa';
 html {
     scroll-behavior: smooth;
 }
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
